@@ -1,0 +1,157 @@
+body{
+    margin: 0 0;
+    padding: 0 0;
+    width: 100%;
+}
+
+ol, li, ul{list-style: none;}
+
+a{ text-decoration: none !important;}
+a:hover{ text-decoration: none !important;}
+
+.body-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.gnb{
+    display: block;
+}
+
+.header-gnb{
+    margin: 0;
+    padding: 0;
+    border: none;
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    height: 40px;
+    padding-left: 98px;
+    background-color: #232f46;
+}
+
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98px;
+    background-color: #5383e8;
+    padding: 0;
+    margin: 0;
+}
+
+.logo a{
+    display: block;
+    padding: 12px 0;
+    width: 100%;
+    height: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.logo a img{
+    height: 16px;
+    width: 65px;
+    max-width: 100%;
+    border: none;
+    vertical-align: top;
+}
+
+.gnb-navi{
+    margin: 0;
+    height: 40px;
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    position: relative;
+}
+
+.navi-list{
+    height: 40px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    word-break: keep-all;
+}
+
+.navi-item{
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    vertical-align: middle;
+    margin: 4px;
+    padding: 0 8px;
+    color: #c3cbd1;
+}
+
+.navi-item-first{
+    height: 40px;
+    line-height: 40px;
+    padding: 0 12px 0 4px;
+    margin: 0;
+    color: #fff;
+    background-color: #5383e8;
+}
+
+.navi-item-new span{
+    position: relative;
+    padding-left: 20px;
+}
+
+.navi-item-new span::after{
+    position: absolute;
+    left: 0;
+    top: -2px;
+    content: "N";
+    font-weight: bold;
+    color: #28344e;
+    background-color: #ffb900;
+    border-radius: 50%;
+    line-height: 17px;
+    font-size: 11px;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+}
+
+.navi-item-beta span {
+    position: relative;
+    padding-left: 40px;
+}
+
+.navi-item-beta span::after{
+    position: absolute;
+    left: 0;
+    top: -2px;
+    content: "Beta";
+    padding: 0 6px;
+    color: #28344e;
+    background-color: #ffb900;
+    border-radius: 8px;
+    line-height: 17px;
+    font-size: 11px;
+    height: 16px;
+    text-align: center;
+}
+
+.navi-item img{
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.navi-item span{
+    font-size: 12px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+.gnb-lang{
+    display: flex;
+}
